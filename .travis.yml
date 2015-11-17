@@ -6,6 +6,7 @@ node_js:
   - "4"
   - "stable"
 before_install:
+  - "rvm -v"
   - "echo $PATH"
   - "which curl || true"
   - "ls -l /usr/bin/curl || true"

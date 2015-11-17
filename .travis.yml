@@ -6,6 +6,9 @@ node_js:
   - "4"
   - "stable"
 before_install:
+  - "echo $PATH"
+  - "which curl || true"
+  - "ls -l /usr/bin/curl || true"
   - rvm install 2.2
   - rvm use 2.2 --fuzzy
   - export GEMDIR=$(rvm gemdir)

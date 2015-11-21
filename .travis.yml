@@ -15,6 +15,7 @@ before_install:
   - "which curl || true"
   - "ls -l /usr/bin/curl || true"
   - "\\command \\which 'curl' || echo 'NO CURL'"
+  - "\\command \\curl --help"
   - "rvm --debug install 2.2"
   - rvm use 2.2 --fuzzy
   - export GEMDIR=$(rvm gemdir)

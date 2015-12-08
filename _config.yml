@@ -20,6 +20,7 @@ exclude:          [assets/scss/]
 
 gems:
   - jekyll-redirect-from
+  - jekyll-seo-tag
   - jekyll-sitemap
 
 # Custom vars
@@ -42,3 +43,11 @@ cdn:
   js:             https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js
   js_hash:        "sha384-XXXXXXXX"
   jquery:         https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js
+
+twitter:
+  username: getbootstrap
+
+social:
+  type: organization
+  name: twbs
+  links: ["https://www.facebook.com/getbootstrap/", "https://twitter.com/getbootstrap"]
